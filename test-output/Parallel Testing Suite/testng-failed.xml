@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="10" parallel="classes" name="Failed suite [Parallel Testing Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="10" parallel="classes" name="Parallel Test(failed)">
+    <classes>
+      <class name="Tests.CollapsibleTest">
+        <methods>
+          <include name="collapsibleContent"/>
+        </methods>
+      </class> <!-- Tests.CollapsibleTest -->
+      <class name="Tests.EmployeeTest">
+        <methods>
+          <include name="employeeCreation"/>
+        </methods>
+      </class> <!-- Tests.EmployeeTest -->
+      <class name="Tests.LinksTest">
+        <methods>
+          <include name="linksmet"/>
+        </methods>
+      </class> <!-- Tests.LinksTest -->
+      <class name="Tests.Autocompletest">
+        <methods>
+          <include name="complete"/>
+        </methods>
+      </class> <!-- Tests.Autocompletest -->
+      <class name="Tests.SliderTest">
+        <methods>
+          <include name="sliding"/>
+        </methods>
+      </class> <!-- Tests.SliderTest -->
+      <class name="Tests.PopupsTest">
+        <methods>
+          <include name="popupone"/>
+        </methods>
+      </class> <!-- Tests.PopupsTest -->
+      <class name="Tests.Multipletabs">
+        <methods>
+          <include name="multipleTabs"/>
+        </methods>
+      </class> <!-- Tests.Multipletabs -->
+      <class name="Tests.ImagesTest">
+        <methods>
+          <include name="upload"/>
+        </methods>
+      </class> <!-- Tests.ImagesTest -->
+      <class name="Tests.MenuTest">
+        <methods>
+          <include name="singleMenu"/>
+        </methods>
+      </class> <!-- Tests.MenuTest -->
+      <class name="Tests.ToolTipTest">
+        <methods>
+          <include name="toolTip"/>
+        </methods>
+      </class> <!-- Tests.ToolTipTest -->
+    </classes>
+  </test> <!-- Parallel Test(failed) -->
+</suite> <!-- Failed suite [Parallel Testing Suite] -->
